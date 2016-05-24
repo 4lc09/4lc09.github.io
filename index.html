@@ -38,15 +38,21 @@
  
     </ul>
   </div>
-<marquee> 
- <a href="https://www.bing.com/images/search?q=banana+split&view=detailv2&&id=486B25D381599A8CC8F1E6A6F6F3DA84A809A80F&selectedIndex=12&ccid=cqDFdr2x&simid=608050641500046150&thid=OIP.M72a0c576bdb14d551c79ceb0eaf7fa21o0&ajaxhist=0"><img src="bananasplit.gif"></a> 
- <a href="http://tuolink2.it/"><img src="tuafoto2.estensione"></a> 
- <a href="http://tuolink3.it/"><img src="tuafoto3.estensione"></a> 
- <a href="http://tuolink4.it/"><img src="tuafoto4.estensione"> 
- </a> 
- </marquee> 
- </a> 
- </marquee> 
+<script type="text/javascript">
+$(function(){
+    $('#show1 img:gt(0)').hide();
+    setInterval(function(){$('#show1 :first-child').fadeOut().next('img').fadeIn().end().appendTo('#show1');}, 3000);
+});
+</script>
+
+<div id="show1"  class="fadein" style="height: 156px; width: 201px;">
+  <img src="/files/immagini/slide/bananasplit.jpg" /> 
+  <img src="/files/immagini/slide/immagine2.jpg" /> 
+  <img src="/files/immagini/slide/immagine3.jpg" /> 
+</div>
+
+<div class="clear">&nbsp;</div>
+
 
   
   
