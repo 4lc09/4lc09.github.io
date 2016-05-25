@@ -3,46 +3,27 @@
   <head>
  <title>RICETTE DOLCI</title>
  <bgcolor="LIGHTBLUE">
-   <style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-background-color:#4CAF50;
-}
-</style>
 </head>
   <body>
 <CENTER><h1><font color="FUCHSIA">RICETTE DOLCI</font></h1></CENTER><br>
-<ul>
-  <li><a class="active" href="#home">Difficoltà</a></li>
-  <li><a href="#Bassa">Bassa</a></li>
-  <li><a href="#Media">Media</a></li>
-  <li><a href="#Alta">Alta</a></li>
-</ul>
-<h2><p><font color= "ORANGE">Difficoltà di preparazione</font></p></h2>
 
+<h2><p><font color= "ORANGE">Difficoltà di preparazione</font></p></h2>
+<div id="hormenu"><!-- div che contiene il menu -->
+<ul> <!-- lista principale: definisce il menu nella sua interezza -->
+    <li>
+        <a href="#">Menu 1</a> <!-- primo list-item, prima voce del menu -->
+        <ul> <!-- Lista annidata: voci del sotto-menu -->
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 1</a></li>
+        </ul> <!-- Fine del sotto-menu -->
+    </li> <!-- Chiudo il list-item -->
+ 
+    <!--qui altri list-item -->
+</div>
 <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav" >
     
