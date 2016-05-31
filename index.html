@@ -2,35 +2,36 @@
 <html lang="en">
   <head>
  <title>RICETTE DOLCI</title>
- <style>
+ <link href="http://getbootstrap.com/dist/css/bootstrap.min.css"rel="stylesheet">
+<style>
 ul {
-    table-style-type: none; 
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
-    color: fuchsia;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
 a:hover:not(.active) {
     background-color: #111;
 }
-
 .active {
 background-color:#4CAF50;
 }
 </style>
+
+
+
+
  <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -130,79 +131,27 @@ background-color:#4CAF50;
 }
 </style>
 </head>
-  <body>
-<CENTER><h1><font color="FUCHSIA">RICETTE DOLCI</font></h1></CENTER><br>
-
-<h2><p><font color= "ORANGE">Difficoltà di preparazione</font></p></h2>
-
-
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Bassa <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#BananaSplit">BananaSplit</a></li>
-    <li><a href="#Brownies">Brownies</a></li>
-  </ul>
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Media <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#Torta zebrata">Torta zebrata</a></li>
-    <li><a href="#Budino">Budino</a></li>
-  </ul>
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Alta <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#Souffle">Souffle</a></li>
-    <li><a href="#Montebianco">Montebianco</a></li>
-  </ul>
-</div>
-
-<br>
-<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-<!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-
- <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="http://www.giallozafferano.it/images/ricette/14/1425/foto_hd/hd450x300.jpg" alt="Chania">
-    </div>
-
-    <div class="item">
-      <img src="http://www.giallozafferano.it/images/ricette/7/780/foto_hd/hd450x300.jpg" alt="Chania">
-    </div>
-
-    <div class="item">
-      <img src="http://www.giallozafferano.it/images/ricette/13/1353/foto_hd/hd650x433_wm.jpg" alt="Chania">
-    </div>
-
-    <div class="item">
-      <img src="http://www.giallozafferano.it/images/ricette/6/626/foto_hd/hd450x300.jpg" alt="Chania">
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
 
 
- <marquee><img src="http://www.giallozafferano.it/images/ricette/14/1425/foto_hd/hd450x300.jpg" width="220" heigth="80"/> <img src="http://blog.giallozafferano.it/ricetteconamore/wp-content/uploads/2015/01/IMG_0537.jpg" width="220" heigth="80"/> <img src=" http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/10/25/1/CC_Alton-Brown-Cocoa-Brownies_s4x3.jpg" width="220" heigth="80"/> <img src="http://www.giallozafferano.it/images/ricette/4/402/foto_hd/hd216x144.jpg" width="220" heigth="80"/> <img src="http://www.giallozafferano.it/images/ricette/21/2197/foto_hd/hd216x144.jpg" width="220" heigth="80"/></marquee>
+
+<body background="http://www.sakhtkala.com/img/back/site%20background.jpg">
+	
+
+ <canvas id="myCanvas" width="600" height="100"
+style="border:1px solid #d3d3d3;">
+
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("ENDURO FOR LIFE",10,50);
+</script>
+
+
+
 
 
 
